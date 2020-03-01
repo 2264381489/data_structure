@@ -19,7 +19,7 @@ class Solution {
 
 //官方题解（比你这个简洁一百倍！！！）
     public int removeDuplicates1(int[] nums) {
-        if (nums.length == 0) return 0;
+      
         int i = 0;
         for (int j = 1; j < nums.length; j++) {
             if (nums[j] != nums[i]) {
