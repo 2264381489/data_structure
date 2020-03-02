@@ -8,34 +8,27 @@ class solution29 {
                 return left;
             }
             if(nums[right]==target){
-                return nums.length-right+1;
+                return right;
             }
             if(nums[left]>target){
                 flag=left;
-                break;
+                return flag;
             }
             if(nums[right]<target){
-                flag=nums.length-right+1;
-                break;
+                flag=right+1;
+                return flag;
             }
 
             left++;
             right--;
         }
-//        int i=0;
-//        int num=nums[flag];
-////        nums[flag]=target;
-//        for (int j=nums.length;j>nums.length-flag;j--){
-//           nums[j]=nums[nums.length-1-i];
-//           i++;
-//        }
-//        nums[flag]=target;
+        if(right<=left){flag=right+1;}
         return flag;
     }
 
     public static void main(String[] args) {
         solution29 solution29 = new solution29();
-        int[] nums ={1,3,5,6};
+        int[] nums ={1,3};
         System.out.println(solution29.searchInsert(nums,2));
     }
 }
