@@ -241,6 +241,7 @@ class Solution {
                     B[j] = tmp;
                 }
             }
+
         }
         Arrays.sort(B);
         for(int i=m;i<A.length;i++) {
@@ -248,7 +249,7 @@ class Solution {
 //                Arrays.sort(B);
             A[i] = B[a];
             a++;
-        }
+        、、、
 
 
         return A;
@@ -260,3 +261,5 @@ class Solution {
 
     }
 }
+
+
