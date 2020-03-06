@@ -99,7 +99,6 @@ class ArrayQueue{
         front++;
         return arr[front];
     }
-
 //显示队列的所有数据
 public void showQueue(){
     if (isEmpty()){
@@ -107,6 +106,7 @@ public void showQueue(){
     }
     for (int i = 0; i <arr.length ; i++) {
         System.out.printf("arr[%d]=%d\n",i,arr[i]); //这个要学习一下。
+        //标准化输出解决输出的值是空值的问题。
     }
 }
 //显示队列头数据，注意不是取出数据
