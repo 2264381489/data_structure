@@ -67,7 +67,6 @@ public class SparseArray {
         int chessArr2[][] = new int[spareseArr[0][0]][spareseArr[0][1]];//普通数组
         //2.在读取稀疏数组后几行的数据（从第二行开始），并付给原始的二维数组即可
 
-
         //之所以从i开始，是因为稀疏矩阵第一行存的是普通数组的信息
         for (int i=1;i<spareseArr.length;i++){
             chessArr2[spareseArr[i][0]][spareseArr[i][1]]=spareseArr[i][2];//chessArr2[spareseArr[i][0]//非零数据所在行][spareseArr[i][1]//非零数据所在列]=spareseArr[i][2]//非零数据的值。
