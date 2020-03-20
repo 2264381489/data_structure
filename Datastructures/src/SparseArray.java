@@ -36,7 +36,7 @@ public class SparseArray {
         //遍历二维数组，将非0的值放到sparseArr中
         int count = 0;//count 用于记录是第几个非0数据
         for (int i = 0; i < 11; i++) {
-            for (int j = 0; j < 11; j++) {jijij
+            for (int j = 0; j < 11; j++) {
                 if (chessArr1[i][j] != 0) {
                     count++;//代表的是第几个棋子。  spareseArr[count]中存放的一维数组中存放的内容就是这个棋子的信息。
                     spareseArr[count][0] = i;//第一列，存放（非零数据）棋子在普通数组（棋盘）中的位置（行数）
