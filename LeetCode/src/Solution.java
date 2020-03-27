@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 //////import java.lang.reflect.Array;
 //////import java.util.ArrayList;
 //////import java.util.Arrays;
@@ -165,32 +167,61 @@
 //        System.out.println( solution.mySqrt(2147395599));
 //    }
 //}
+//class Solution {
+//    public int massage(int[] nums) {
+//        if(nums.length==0)return 0;
+//        if (nums.length==1)return nums[0];
+//        //动态规划,这个采用了分类讨论的思想
+//        //[2,7,9,3,1]为例
+//        //如果你在7的位置上.有两种情况1.工作2.不工作
+//        //于是用数组表示就是len[i][1]与len[i][0]
+//        //这个二维数组的值记录经过的路径的总值
+//        int [][] len=new int[nums.length][2];
+//        len[0][0]=0;
+//        len[0][1]=nums[0];
+//        //遍历这个数组,用二维数组的值作为记录
+//        for(int i=1;i<=nums.length-1;i++){
+//            //假如你在9位置上
+//            //len[i][0]代表你不工作
+//            //有两种可能1.昨天你工作了2.昨天你不工作
+//            //那么我们只要找出两种可能中最大的一种就可以
+//            len[i][0]=Math.max(len[i-1][0],len[i-1][1]);
+//            //如果jin'tian'gong
+//            len[i][1]=len[i-1][0]+nums[i];
+//        }
+//        return Math.max(len[nums.length-1][0],len[nums.length-1][1]);
+//    }
+//    public static void main(String[] args) {
+//        Solution solution = new Solution();
+//        System.out.println(solution.massage(new int[]{2,7,9,3,1}));
+//    }
+// }
 class Solution {
-    public int massage(int[] nums) {
-        if(nums.length==0)return 0;
-        if (nums.length==1)return nums[0];
-        //动态规划,这个采用了分类讨论的思想
-        //[2,7,9,3,1]为例
-        //如果你在7的位置上.有两种情况1.工作2.不工作
-        //于是用数组表示就是len[i][1]与len[i][0]
-        //这个二维数组的值记录经过的路径的总值
-        int [][] len=new int[nums.length][2];
-        len[0][0]=0;
-        len[0][1]=nums[0];
-        //遍历这个数组,用二维数组的值作为记录
-        for(int i=1;i<=nums.length-1;i++){
-            //假如你在9位置上
-            //len[i][0]代表你不工作
-            //有两种可能1.昨天你工作了2.昨天你不工作
-            //那么我们只要找出两种可能中最大的一种就可以
-            len[i][0]=Math.max(len[i-1][0],len[i-1][1]);
-            //如果jin'tian'gong
-            len[i][1]=len[i-1][0]+nums[i];
+    public boolean hasGroupsSizeX(int[] deck) {
+        HashMap<Integer, Integer> HashMap = new HashMap<>();
+
+        for (int i1 : deck) {
+            if (!HashMap.containsKey(i1)) {
+                int value=1;
+                HashMap.put(i1,value);
+            }else{
+                HashMap.put(i1,HashMap.get(i1)+1);
+            }
         }
-        return Math.max(len[nums.length-1][0],len[nums.length-1][1]);
+        int flag=HashMap.get(deck[0]);
+        for(int i2 :deck){
+            flag=gcd(flag,HashMap.get(i2));
+            if (flag==1)return false;
+
+        }
+        return  flag>=2;
     }
+    public int gcd(int x, int y) {
+        return x == 0 ? y : gcd(y%x, x);
+    }
+
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.massage(new int[]{2,7,9,3,1}));
+        System.out.println( solution.hasGroupsSizeX(new int[]{1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3}));
     }
- }
+}
