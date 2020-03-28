@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    var hasGroupsSizeX = function(deck) {
+         var arr=new Array();
+         for (var i1 in deck) arr[i1]+=1;
+         var a=arr[deck[0]];
+         for (var i2 in deck){
+            a=grid(a,arr[i2]);
+            if (a==1)return false;
+         }
+         return a>2;
+    };
+    function grid(a, b) {
+         return a=0?b:grid(b%a,a);
+    }
+</script>
+</html>
