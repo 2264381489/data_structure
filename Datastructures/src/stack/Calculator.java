@@ -3,7 +3,7 @@ package stack;
 public class Calculator {
     public static void main(String[] args) {
         //根据前面老式的思路,完成表达式的运算
-        String expression = "3+2*6-2";
+        String expression = "70+2*6-4";
         //创建两个栈,数栈,一个符号栈
         ArrayStack2 numberStack = new ArrayStack2(10);
         ArrayStack2 operStack = new ArrayStack2(10);
@@ -14,9 +14,11 @@ public class Calculator {
         int oper = 0;
         int res = 0;
         char ch = ' ';//将每次扫描得到的char保存到ch中
+        String keepNum="";//keepnumber是用于拼接多位数的
         //开始扫描expression
         while (true) {
             //依次得到expression的每一个字符
+            //z
             ch = expression.substring(index, index + 1).charAt(0);
             //判断ch是什么然后做相应的处理
             if (operStack.isOper(ch)) {//如果是运算符
@@ -42,7 +44,24 @@ public class Calculator {
                     operStack.push(ch);
                 }
             }else {//如果是数直接入数栈
-                numberStack.push(ch-48);//措了就减48
+                //不能这么写,因为他可能是多位数
+                //2.在处理多位数,需要向expression后再看以为,如果是数就继续扫描,如果是符号才入栈
+                //3.因此我们需要定义一个变量,字符串,用于拼接
+                //0numberStack.push(ch-48);//措了就减48
+                //处理多位数
+                keepNum += ch;
+                //如果是ch已经是expression的最后一位,就直接入栈
+                if (index == expression.length() - 1) {
+                    numberStack.push(Integer.parseInt(keepNum));
+                } else {
+                    //判断下一个字符是不是数字,如果是数字,就继续扫描,如果是运算符则入栈
+                    if (operStack.isOper(expression.substring(index + 1, index + 2).charAt(0))) {
+                        //如果后一位是运算,则入栈
+                        numberStack.push(Integer.parseInt(keepNum));
+                        //重要的!!!!!!keepnum清空
+                        keepNum = "";
+                    }
+                }
             }
             //index+1,并判断是否扫描到expression最后
             index++;
@@ -70,7 +89,7 @@ public class Calculator {
     class ArrayStack2 {
         private int maxsize;//栈的大小
         private int[] stack;//数组,数组模拟栈,数据就放在数组
-        private int top=-1;//栈顶
+        private int top=-1 ;//栈顶
 
         //构造函数
         public ArrayStack2(int maxsize) {
