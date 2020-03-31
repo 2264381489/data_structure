@@ -395,48 +395,88 @@
 //           return head;
 //    }
 //}
+//class Solution {
+//    public void merge(int[] nums1, int m, int[] nums2, int n) {
+////                int [] arr=new int[m+n];//建立中间数组
+//        int[] arr = new int[m];
+//        System.arraycopy(nums1, 0, arr, 0, m);
+//
+//
+//        int i=0;//一号指针
+//        int j=0;//二号指针
+//        int flag=0;//下标
+//        while(i<m&&j<n){
+//            if (arr[i]>nums2[j]){//一号节点大于二号节点,二号节点进入目标数组
+//                nums1[flag]=nums2[j];
+//                j++;
+//            }else{//反之亦然
+//                nums1[flag]=arr[i];
+//                i++;
+//            }
+//           nums1[flag]=arr[i]>nums2[j]?nums2[j++]: arr[i++];
+//            flag++;//先后运动
+//        }
+//        if (i<m){
+//            while(i<m) {
+//                nums1[flag] =arr[i];
+//                flag++;
+//                i++;
+//            }
+//        }
+//        if (j<n){
+//            while(j<n) {
+//                nums1[flag] =nums2[j];
+//                flag++;
+//                j++;
+//            }
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//        Solution solution = new Solution();
+//     solution.merge(new int[]{1,2,3,0,0,0},
+//        3,
+//         new int[] {2,5,6},
+//        3);
+//    }
+//}
+//class TreeNode {
+//      int val;
+//      TreeNode left;
+//      TreeNode right;
+//      TreeNode(int x) { val = x; }
+// }
+//class Solution {
+//    public int maxDepth(TreeNode root) {
+//        if (0!= root.val){
+//            int max=0;
+//         return  max=1+Math.max(maxDepth(root.left),maxDepth(root.right));
+//        }else {
+//            return 0;
+//        }
+//
+////       Math.max(maxDepth(root.left),maxDepth(root.right));
+//    }
+////    public int maxDepth(TreeNode right,TreeNode left){
+////
+////    }
+//}
+class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode(int x) { val = x; }
+ }
 class Solution {
-    public void merge(int[] nums1, int m, int[] nums2, int n) {
-//                int [] arr=new int[m+n];//建立中间数组
-        int[] arr = new int[m];
-        System.arraycopy(nums1, 0, arr, 0, m);
+    public boolean isSameTree(TreeNode p, TreeNode q) {
+        if (p == null && q == null) return true;
+        // one of p and q is null
+        if (q == null || p == null) return false;
+        if (p.val != q.val) return false;
 
+       return isSameTree(p.left,q.left)&&isSameTree(p.right,q.right);
 
-        int i=0;//一号指针
-        int j=0;//二号指针
-        int flag=0;//下标
-        while(i<m&&j<n){
-            if (arr[i]>nums2[j]){//一号节点大于二号节点,二号节点进入目标数组
-                nums1[flag]=nums2[j];
-                j++;
-            }else{//反之亦然
-                nums1[flag]=arr[i];
-                i++;
-            }
-           nums1[flag]=arr[i]>nums2[j]?nums2[j++]: arr[i++];
-            flag++;//先后运动
-        }
-        if (i<m){
-            while(i<m) {
-                nums1[flag] =arr[i];
-                flag++;
-                i++;
-            }
-        }
-        if (j<n){
-            while(j<n) {
-                nums1[flag] =nums2[j];
-                flag++;
-                j++;
-            }
-        }
     }
 
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-     solution.merge(new int[]{1,2,3,0,0,0},
-        3,
-         new int[] {2,5,6},
-        3);
-    }
+
 }
