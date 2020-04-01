@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 //////import java.util.ArrayList;
 //////import java.util.Collection;
 //////import java.util.Collections;
@@ -467,16 +470,30 @@ class TreeNode {
       TreeNode right;
       TreeNode(int x) { val = x; }
  }
+//class Solution {
+//    public boolean isSameTree(TreeNode p, TreeNode q) {
+//        if (p == null && q == null) return true;
+//        // one of p and q is null
+//        if (q == null || p == null) return false;
+//        if (p.val != q.val) return false;
+//
+//       return isSameTree(p.left,q.left)&&isSameTree(p.right,q.right);
+//
+//    }
+//}
 class Solution {
-    public boolean isSameTree(TreeNode p, TreeNode q) {
-        if (p == null && q == null) return true;
-        // one of p and q is null
-        if (q == null || p == null) return false;
-        if (p.val != q.val) return false;
-
-       return isSameTree(p.left,q.left)&&isSameTree(p.right,q.right);
-
+    List<List<Integer>> listtotal=new ArrayList<>();
+    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+        List<Integer> list=new ArrayList<>();
+          if(root.right!=null){
+              list.add(root.right.val);
+          }
+          if (root.left!=null){
+              list.add(root.left.val);
+          }
+          listtotal.add(list)
+                  sout
+                  sout
+                  sout
     }
-
-
-}
+}sout
