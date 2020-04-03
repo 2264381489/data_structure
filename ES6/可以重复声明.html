@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tite</title>
+</head>
+<body>
+<input type="button">
+<input type="button">
+<input type="button">
+</body>
+<script>
+    /*
+  window.onload= function show() {
+      alert("aab");
+    };
+    window.onload=()=>{
+        alert("aab");
+    };
+    */
+    // let show=function () {
+    //     alert("abc");
+    // }
+    // let show=()=>{
+    //     alert("abc");
+    // }
+    // show();
+    // let show=function (a,b) {
+    //     alert(a+b);
+    // }
+    // let show= (a,b)=> {
+    //     alert(a+b);
+    // }
+    // show(8,8);
+    let arr=[12,9,5,1,2];
+    arr.sort((a,b)=> {
+        return a-b;
+    });
+    alert(arr);
+    let show=function (a) {
+        return a*2;
+    }
+    alert(show(12));
+    let show=a=>{
+        return a*12;
+    }
+    let show=a=>a*12;
+
+    alert(show(12));
+
+</script>
+</html>

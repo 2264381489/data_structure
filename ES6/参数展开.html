@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+</body>
+<script>
+    // let arr=[1,2,3];
+    // let arr2=[3,4,5];
+    //     let arr3=[...arr,...arr2];
+    //     alert(arr3);
+    // function show(a,b,c) {
+    //     alert(a);
+    //     alert(b);
+    //     alert(c);
+    // }
+    // show(1,2,3);
+    // function show(...args) {
+    //     fn(...args);
+    // }
+    // function fn(a,b) {
+    //     alert(a+b);
+    // }
+    // show(12,5);
+    // function show(a,b=5,c=12) {
+    //     console.log(a,b,c);
+    // }
+//     // show(99);
+//     let arr=[1,2,3];
+//     let a=arr[0];
+//     let b=arr[1];
+//     let c=arr[2];
+//     let [a,b,c]=[1,2,3];//结构赋值
+//     // let {a,b,c}={"a":12,"b":5,"c":6};//左边是json右边也要是json
+//     //你可以将这个拆成任意的粒度,
+//     let [json,[n1,n2,n3],num,str]=[{a:12,b:13,c:12},[12,5,8],8,"hello world"];
+//     let [a,b]={"a":12,"c":13};//这个报错
+//  console.log(json,n1,n2,n3,num,str);
+//     let [a,b]
+//     [a,b]=[12,5];
+//
+// console.log(a,b);
+// let arr=[1,2,3];
+// let result=arr.map((item)=>item*2) ;//每个arr中的数都会作为参数到这个函数中走一遭
+// alert(result);
+//     let score=[12,58,99,86,45]
+//      var result=score.map(item=>item>=60?"及格":"不及格");
+//     alert(result);
+//     let arr=[12,69,180,8763];
+//    let result= arr.reduce(function (tmp,item,index) {
+//         //tmp:中间值
+//         //item:现有元素
+//         //index:下标
+//         alert(tmp+","+item+","+index);
+//         return tmp+item;
+//     });
+   //  let result= arr.reduce(function (tmp,item,index) {
+   //      //tmp:中间值
+   //      //item:现有元素
+   //      //index:下标
+   //      alert(tmp+","+item+","+index);
+   //      if(index==arr.length-1){
+   //          return (tmp+item)/arr.length;
+   //      };
+   //      return tmp+item;
+   //  });
+   // alert(result);
+    //filter 过滤器
+    // let arr=[12,3,4,5,6,7,9]
+    // let result=arr.filter(item=>item%3==0);
+    // alert(result);
+    // let arr=[
+    //     {"title":"男士衬衫","price": 75},
+    //     {"title":"女士衬衫","price": 175},
+    //     {"title":"袜子","price": 75},
+    // ];
+    // let result=arr.filter(json=>json.price>100);
+    // console.log(result);
+    // let arr=[12,5,,6,5];
+    // arr.forEach((item,index)=>{
+    //     alert(index+" "+item);
+    // });
+    // let str="http://www.baidu.com";
+    // if (str.startsWith("http://")){
+    //     alert("这是网址");
+    // }
+    // str.startsWith()
+    // let str="1.txt";
+    // if (str.endsWith("txt")){
+    //     alert("这是文本文件");
+    // }
+    // let a=12;
+    // let str=`a${a}bc`;
+    // alert(str);
+    function User(name,pass) {
+      this.name=name;
+      this.pass=pass;
+    }
+    User.prototype.showName=function () {
+        alert(this.name);
+    };
+    User.prototype.showPass=function () {
+        alert(this.pass);
+    };
+    class vipUser extends User{
+        constructor(name,pass,level){
+            super(name,pass);
+            this.level=level;
+        }
+        showLevel(){
+            alert(this.level);
+        }
+    }
+    var vipUser1 = new vipUser("blue",123,3);
+    vipUser1.showLevel();
+    vipUser1.showName();
+    vipUser1.showPass();
+
+    // function vipUser(name,pass,level) {
+    //     User.call(this,name,pass);
+    //     this.level=level;
+    // }
+    // vipUser.prototype=new User();
+    // vipUser.prototype.constructor=vipUser;
+    // vipUser.prototype.showLevel=function () {
+    //     alert(this.level);
+    // }
+    // var vip=new vipUser("blue",123,3);
+    // vip.showName();
+    // vip.showPass();
+    // vip.showLevel();
+   // var u1=new User('bule',123);
+   // u1.showPass();
+   //  u1.showName();
+// class User{
+//     constructor(name,pass){
+//         this.name=name;
+//         this.pass=pass;
+//     }
+//     showName(){
+//         alert(this.name);
+//     }
+//     showPass(){
+//         alert(this.pass)
+//     }
+// }
+//     var u1=new User('bule',123);
+//     u1.showPass();
+//      u1.showName();
+
+</script>
+</html>

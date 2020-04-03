@@ -21,5 +21,40 @@
     function grid(a, b) {
          return a=0?b:grid(b%a,a);
     }
+    var o=document.implementation.createDocument("","",null); //创建一个空的XML DOM文档对象
+    document.implementation.createDocument("http://www.baidu.com","root",null); //第一个参数是命名空间,第二个是文档的根节点名称
+    var o=document.implementation.createDocument("","",null); //必须先创建一个XML DOM对象之后才能加载
+    var s="<res><record>1</record><rename>苹果</rename></res>"//一个XML字符串
+    o.loadXML(s);//加载XML字符串
+    o.async=true;//异步
+   o.async=false;//同步`
+    function text(o) {
+        var s="";
+        for (var i=0;i<o.childNodes.length;i++){//遍历子节点
+            if(o.childNodes[i].hasChildNodes()) {//如果当前节点在子节点
+                a += text(o.childNodes[i]);//则递归读取子节点包含的内容
+            }else{
+                s+=o.childNodes[i].nodeValue;
+            }
+        }
+        return s;
+    }
+    function xml(o) {
+        var _o=new XMLSerializer();
+        return -o.serializeToString(o);
+    }
+    var json='{"name":"张三","qq":"11111"}';
+    var contact=JSON.parse(json);
+    document.write(contact.name+","+contact.qq);
+    var a='{"a":"12","b":"13"}';
+    var contact=JSON.parse(a,int);
+    function int() {
+      if(typeof value=='string'){
+          return parseInt(value);
+      }else {
+          return value;
+      }
+    }
+    document.write(contact.b);
 </script>
 </html>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Datastructures/Datastructures.iml" filepath="$PROJECT_DIR$/Datastructures/Datastructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ES6/ES6.iml" filepath="$PROJECT_DIR$/ES6/ES6.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode.iml" />
     </modules>
