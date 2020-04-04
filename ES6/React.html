@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="http://static.runoob.com/assets/react/browser.min.js"></script>
+    <script type="text/babel">
+
+        class Test   extends  React.Component{//组件,也是clas
+            constructor(...args){//参数扩展,接到多少给父级多少
+                super(...args);
+            }
+            render(){
+                return <span>123</span>;//所有的组件都是可视化的
+            }//这个方法必须有
+        }
+            window.onload=function () {
+                let oDiv=document.getElementById("div1");
+               ReactDOM.render(<li><Test/></li>,oDiv);
+            };
+
+    </script>
+</head>
+<body>
+<div id="div1">
+<!---->
+</div>
+
+</body>
+</html>

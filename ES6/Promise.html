@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <script>
+        //promise中的是一个
+        let op=new Promise(function (resolve,reject) {
+            //异步代码
+            //resovle成功了
+            //reject失败了
+            $.ajax({
+                url:'arr.txt',
+                dataType:'json',
+                success(arr){
+                    resolve(arr);
+                },
+                error(err){
+                    reject(err);
+                }
+                })
+            p.then(function () {
+                alert("成功");
+            },function () {
+                alert("失败");
+            })
+
+            })
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

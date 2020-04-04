@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let  json={a:2,b:5};
+        let  json2='{"a":2,"b":5}';
+        //stringify变为字符串的方法
+        let str='http://www.baidu.com?date='+encodeURI(JSON.stringify(json));
+        //
+        let jjson=JSON.parse(json2);
+        console.log(jjson);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

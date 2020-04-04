@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let a=12;
+         let b=5;
+        let json={a,b,c:55};//名字和值一样的时候可以直接写一个名字.
+            //json={a:12,b:5,c:55}比较类似于这个
+        let json={
+            a:12,
+            show(){
+                alert(this.a);
+            },//新版写法
+            show: function () {
+                alert(this.a);
+            }//旧版写法
+        };
+        console.log(json);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

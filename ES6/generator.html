@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function *show() {
+        alert("a");
+      let a=yield ;
+        alert("b");
+        alert(a);//返回5
+    }//generator函数
+  let genObj=show();//生成一个generator对象
+    console.log(genObj);
+    genObj.next(12);//可以传参.
+    genObj.next(5);
+
+</script>
+<body>
+
+</body>
+</html>
