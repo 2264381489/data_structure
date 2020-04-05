@@ -1,4 +1,7 @@
+import sun.reflect.generics.tree.Tree;
+
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 //////import java.util.ArrayList;
@@ -481,19 +484,149 @@ class TreeNode {
 //
 //    }
 //}
+//class Solution {
+//    List<List<Integer>> listtotal=new ArrayList<>();
+//    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+//        List<Integer> list=new ArrayList<>();
+//          if(root.right!=null){
+//              list.add(root.right.val);
+//          }
+//          if (root.left!=null){
+//              list.add(root.left.val);
+//          }
+//          listtotal.add(list)
+//                  sout
+//                  sout
+//                  sout
+//    }
+//}sout
+//class Solution {
+//    public TreeNode sortedArrayToBST(int[] nums) {
+//        Arrays.sort(nums);
+//        return  sortedTree(nums);
+//    }
+//    int val=0;
+//    public TreeNode sortedTree(int[] nums){
+//        //root的操作
+//        TreeNode root=new TreeNode(nums[val]);
+//          val+=1;
+//        root.left=sortedTree(nums);
+//        root.right=sortedTree(nums);
+//        return root;
+//    }
+//
+//}
+//class Solution {
+//    int[] nums;
+//
+//    public TreeNode helper(int left, int right) {
+//        if (left > right) return null;
+//
+//        // always choose left middle node as a root
+//        int p = (left + right) / 2;
+//
+//        // inorder traversal: left -> node -> right
+//        TreeNode root = new TreeNode(nums[p]);
+//        root.left = helper(left, p - 1);
+//        root.right = helper(p + 1, right);
+//        return root;
+//    }
+//
+//    public TreeNode sortedArrayToBST(int[] nums) {
+//        this.nums = nums;
+//        return helper(0, nums.length - 1);
+//    }
+//}
+//class Solution {
+//    int[] nums;
+//    public TreeNode sortedArrayToBST(int[] nums) {
+//        this.nums=nums;
+//         return tree(0,nums.length-1);
+//    }
+//    public TreeNode tree(int left,int right){
+//        if(left>right){
+//          return null;
+//        }//退出条件
+//        int p=(left+right)/2;//找出中点,奇数是正好那个位置,偶数则是中点左边的位置.[1,2,3,4,5]中点是3,[1,2,3,4,5,6]值为2.5,因为/的特性,所以值为2
+//        TreeNode root = new TreeNode(nums[p]);
+//        root.left=tree(,p-1);
+//        root.right=tree(p+1,nums.length-1);
+//        return root;
+//    }
+//}
+//class Solution {
+//    public boolean isBalanced(TreeNode root) {
+//
+//   if (root==null){return true;}
+//
+//        int a=isisBalanced1(root.left);//遍历左子树
+//        int b=isisBalanced1(root.right);//遍历右子树
+//        System.out.println(a);
+//        System.out.println(b);
+//        return Math.abs(a-b)<=1&&;
+//    }
+//
+//    public int isisBalanced1(TreeNode root){
+//        int left1=0;
+//        int right1=0;
+//            if (root==null)return -1;
+//       left1=1+isisBalanced1(root.left);
+//        System.out.println(root.val+","+left1);
+//       right1=1+isisBalanced1(root.right);
+//        System.out.println(root.val+","+right1);
+//        return Math.max(left1,right1);
+//    }
+//
+//    public static void main(String[] args) {
+//        TreeNode treeNode = new TreeNode(1);
+//        treeNode.left=new TreeNode(2);
+//        treeNode.right=new TreeNode(2);
+//        treeNode.left.left=new TreeNode(3);
+//        treeNode.left.right=new TreeNode(3);
+//        treeNode.left.left.left=new TreeNode(4);
+//        treeNode.left.left.right=new TreeNode(4);
+//        Solution solution = new Solution();
+//        solution.isBalanced(treeNode);
+//    }
+//}
+//class Solution {
+//    public int minDepth(TreeNode root) {
+//        if (root==null)return 0;
+//       int a=1;
+//       int b=1;
+//         a+=minDepth(root.left);
+//        b+=minDepth(root.right);
+//        return Math.min(a,b);
+//    }
+//}
+//class Solution {
+//    int i=0;
+//    public boolean hasPathSum(TreeNode root, int sum) {
+//           i++;
+//        if (root==null&&sum!=0){return false;}
+//        if (i!=1) {
+//            if (root == null && sum == 0) return true;
+//        }
+//
+//
+//        return hasPathSum(root.left,sum-root.val)||hasPathSum(root.right,sum-root.val);
+//
+//
+//    }
+//}
 class Solution {
-    List<List<Integer>> listtotal=new ArrayList<>();
-    public List<List<Integer>> levelOrderBottom(TreeNode root) {
-        List<Integer> list=new ArrayList<>();
-          if(root.right!=null){
-              list.add(root.right.val);
-          }
-          if (root.left!=null){
-              list.add(root.left.val);
-          }
-          listtotal.add(list)
-                  sout
-                  sout
-                  sout
+    public boolean isBalanced(TreeNode root) {
+       if (root==null)return false;
+     return isBalanced1(root)<=1&&isBalanced(root.left)&&isBalanced(root.right);
     }
-}sout
+
+    private int isBalanced1(TreeNode root) {
+        int a=0;
+        int b=0;
+        if (root==null) return 0;
+            a=1+isBalanced1(root.left);
+            b=1+isBalanced1(root.right);
+            return Math.min(a,b);
+
+    }
+}
