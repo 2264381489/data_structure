@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e770716b-f6f0-4109-ab58-d03df0ba8d37" name="Default Changelist" comment="" />
+    <list default="true" id="e770716b-f6f0-4109-ab58-d03df0ba8d37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeetCode/src/Soultion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="616" column="16" lean-forward="true" selection-start-line="616" selection-start-column="16" selection-end-line="616" selection-end-column="16" />
+            <state relative-caret-position="290">
+              <caret line="630" column="5" lean-forward="true" selection-start-line="630" selection-start-column="5" selection-end-line="630" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -87,7 +89,21 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -234,7 +250,7 @@
       <workItem from="1586048141242" duration="17437000" />
       <workItem from="1586137501139" duration="1241000" />
       <workItem from="1586139179803" duration="67000" />
-      <workItem from="1586139272069" duration="644000" />
+      <workItem from="1586139272069" duration="1318000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 29">
       <created>1583070841192</created>
@@ -457,14 +473,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260279000" />
+    <option name="totallyTimeSpent" value="260953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="设计师" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1689008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1689008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -484,7 +500,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932975" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.54758716" side_tool="true" visible="true" weight="0.32577905" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.54758716" side_tool="true" visible="true" weight="0.32577905" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49447513" weight="0.3286119" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" sideWeight="0.8265583" weight="0.32904148" />
       <window_info anchor="right" id="控制板" />
@@ -898,8 +914,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/src/Soultion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="616" column="16" lean-forward="true" selection-start-line="616" selection-start-column="16" selection-end-line="616" selection-end-column="16" />
+        <state relative-caret-position="290">
+          <caret line="630" column="5" lean-forward="true" selection-start-line="630" selection-start-column="5" selection-end-line="630" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
