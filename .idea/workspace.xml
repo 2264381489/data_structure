@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e770716b-f6f0-4109-ab58-d03df0ba8d37" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/algs4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datastructures/src/sort/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datastructures/Datastructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Datastructures/Datastructures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datastructures/sort/SortCompared.java" beforeDir="false" afterPath="$PROJECT_DIR$/Datastructures/src/sort/SortCompared.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datastructures/sort/insertsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Datastructures/src/sort/insertsort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datastructures/sort/selectionsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Datastructures/src/sort/selectionsort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datastructures/sort/shellsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Datastructures/src/sort/shellsort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/linkdelist/Boy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/linkdelist/CircleSingleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/linkdelist/HeroNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/linkdelist/Josepfu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/linkdelist/SingleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/linkdelist/SingleLinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/算法/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/算法/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +27,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/src/Soultion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="625" column="33" lean-forward="true" selection-start-line="625" selection-start-column="33" selection-end-line="625" selection-end-column="33" />
+            <state relative-caret-position="196">
+              <caret line="625" column="33" selection-start-line="625" selection-start-column="33" selection-end-line="625" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/insertsort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-470">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/selectionsort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-206">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/算法/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-149">
+              <caret line="64" column="49" lean-forward="true" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/SortCompared.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,8 +92,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,7 +118,6 @@
         <option value="$PROJECT_DIR$/Datastructures/src/linkdelist/DoubleLinkedList.java" />
         <option value="$PROJECT_DIR$/Datastructures/src/linkdelist/DoubleLinkedListDemo.java" />
         <option value="$PROJECT_DIR$/Datastructures/src/linkdelist/Josepfu.java" />
-        <option value="$PROJECT_DIR$/src/算法/Solution.java" />
         <option value="$PROJECT_DIR$/Datastructures/src/SparseArray.java" />
         <option value="$PROJECT_DIR$/Datastructures/src/stack/stack.java" />
         <option value="$PROJECT_DIR$/Datastructures/src/stack/ArrayStack.java" />
@@ -75,14 +136,16 @@
         <option value="$PROJECT_DIR$/ES6/Promise.html" />
         <option value="$PROJECT_DIR$/ES6/generator.html" />
         <option value="$PROJECT_DIR$/LeetCode/src/Soultion.java" />
+        <option value="$PROJECT_DIR$/Datastructures/src/sort/selectionsort.java" />
+        <option value="$PROJECT_DIR$/src/算法/Solution.java" />
+        <option value="$PROJECT_DIR$/Datastructures/src/sort/MergeSort.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="y" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -91,13 +154,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name=".vscode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -109,6 +176,20 @@
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="Datastructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -128,25 +209,35 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="算法" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="外部库" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586181616673" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586264299521" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/percolation (1)/.lift/algs4.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\22643\Desktop\Leetcode\Datastructures\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,9 +251,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.ArrayStackDemo" />
+  <component name="RunManager" selected="应用程序.MergeSort">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.Calculator" />
       <module name="Datastructures" />
       <extension name="coverage">
         <pattern>
@@ -174,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.Calculator" />
+    <configuration name="MergeSort" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
       <module name="Datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,19 +291,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="算法.test" />
-      <module name="Leetcode" />
+    <configuration name="SortCompared" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.SortCompared" />
+      <module name="Datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="算法.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,6 +304,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="selectionsort" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.selectionsort" />
+      <module name="Datastructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.MergeSort" />
+        <item itemvalue="应用程序.selectionsort" />
+        <item itemvalue="应用程序.SortCompared" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\22643\AppData\Roaming\Subversion</configuration>
@@ -280,6 +384,7 @@
       <workItem from="1586137501139" duration="1241000" />
       <workItem from="1586139179803" duration="67000" />
       <workItem from="1586139272069" duration="2033000" />
+      <workItem from="1586229553680" duration="7205000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 29">
       <created>1583070841192</created>
@@ -502,21 +607,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261668000" />
+    <option name="totallyTimeSpent" value="268873000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="设计师" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1689008" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3526971" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="运行" />
-      <window_info anchor="bottom" id="调试" />
+      <window_info id="设计师" order="7" />
+      <window_info anchor="bottom" id="消息" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45241287" weight="0.32577905" />
@@ -528,10 +633,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932975" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.54758716" side_tool="true" visible="true" weight="0.32577905" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020747" side_tool="true" visible="true" weight="0.3323782" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49447513" weight="0.3286119" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" sideWeight="0.8265583" weight="0.32904148" />
-      <window_info anchor="right" id="控制板" />
+      <window_info active="true" anchor="bottom" id="运行" order="14" sideWeight="0.4979253" visible="true" weight="0.3323782" />
+      <window_info anchor="bottom" id="调试" order="15" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -541,6 +647,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="控制板" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,32 +718,20 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Datastructures/src/linkdelist/SingleLinkedListDemo.java</url>
-          <line>159</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Datastructures/src/linkdelist/Josepfu.java</url>
-          <line>114</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/算法/Solution.java</url>
-          <line>34</line>
+          <line>35</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/算法/Solution.java</url>
-          <line>40</line>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/算法/Solution.java</url>
-          <line>19</line>
+          <line>20</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
@@ -694,6 +789,18 @@
           <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Datastructures/src/sort/selectionsort.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Datastructures/src/sort/selectionsort.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/LeetCode/src/Soulution29.java</url>
           <line>28</line>
@@ -712,7 +819,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/算法/Solution.java</url>
-          <line>53</line>
+          <line>54</line>
           <properties class="算法.Solution">
             <option name="EMULATED" value="true" />
           </properties>
@@ -816,13 +923,6 @@
             <element signature="method#showBoy#0;class#CircleSingleLinkedList#0" />
             <element signature="docComment;method#countBoy#0;class#CircleSingleLinkedList#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/算法/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -942,11 +1042,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/src/Soultion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="625" column="33" lean-forward="true" selection-start-line="625" selection-start-column="33" selection-end-line="625" selection-end-column="33" />
+        <state relative-caret-position="196">
+          <caret line="625" column="33" selection-start-line="625" selection-start-column="33" selection-end-line="625" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/insertsort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-470">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/SortCompared.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/selectionsort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/算法/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="64" column="49" lean-forward="true" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -979,6 +1117,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>browser</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1027,6 +1166,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>algs4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

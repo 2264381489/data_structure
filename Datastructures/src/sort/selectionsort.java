@@ -30,16 +30,15 @@ public class selectionsort
         for (int i = 0; i <N; i++) {
             //将a[i]和a[i+1...N]中最小的一个交换
             int min=i;
-            // System.out.print(i+" ");
-            show(a);
-            // System.out.println();
+
             for (int j = i+1; j < N; j++) {
-                System.out.print(i+" ");
-          
-            System.out.println();
-                if(less(a[j], a[min])) min=j;
-                exch(a, i, min);
+                // System.out.print(i+" ");
+
+                // System.out.println();
+                if (less(a[j], a[min])) min = j;
             }
+                exch(a, i, min);
+
         }
     }
     private static boolean less(Comparable v,Comparable w)//可以这么写,似乎是向上转型的一种
@@ -63,7 +62,7 @@ public class selectionsort
     }//验证
    public static void main(String args[]) {
     // Scanner scan = new Scanner(System.in);
-    String[] a={"S","O","R","T","E","X","A","M","P","L","E"};
+    String[] a={"E","A","S","Y","Q","E","S","T","I","O","N"};
     // selectionsort  sortDemo=new selectionsort();
     sort(a);
     assert isSorted(a);//断言,要是失败了终止程序

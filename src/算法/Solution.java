@@ -1,5 +1,6 @@
 package 算法;
 
+//import javax.swing.tree.TreeNode;
 import java.util.Arrays;
 
 
@@ -58,14 +59,31 @@ import java.util.Arrays;
 //}
 ////"OBCNOOBCNOOBCNOOBCNOOBCNOOBCNOOBCNOOBCNO"
 ////        "OBCNOOBCNOOBCNOOBCNOOBCNOOBCNOOBCNOOBCNOOBCNOOBCNOOBCNOOBCNOOBCNO"
+//class Solution {
+//    public int majorityElement(int[] nums) {
+//        Arrays.sort(nums);
+//        return nums[Math.round(nums.length/2)];
+//    }
+//
+//    public static void main(String[] args) {
+//        Solution solution = new Solution();
+//        System.out.println(solution.majorityElement(new int[]{2,2,1,1,1,2,2}));
+//    }
+//}
+  class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode(int x) { val = x; }
+ }
 class Solution {
-    public int majorityElement(int[] nums) {
-        Arrays.sort(nums);
-        return nums[Math.round(nums.length/2)];
-    }
+    public boolean isSymmetric(TreeNode root) {
 
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.out.println(solution.majorityElement(new int[]{2,2,1,1,1,2,2}));
+        return root==null?true:iscure(root.left,root.right);
+    }
+    public boolean iscure(TreeNode left,TreeNode right){
+        if (left==null&&right==null)return true;
+        if(left == null || right == null || left.val != right.val) return false;
+        return iscure(left.left,right.right)&&iscure(left.right,right.left);
     }
 }
