@@ -22,7 +22,7 @@ import javax.swing.text.AbstractDocument.LeafElement;
 // A  E  E  L  M  O  P  R  S  T  X
 public class selectionsort
 {//算法模板
-    private static void sort(Comparable[] a) {
+   public static void sort(Comparable[] a) {
         //算法填充区
         int N=a.length;
         for (int i = 0; i <N; i++) {

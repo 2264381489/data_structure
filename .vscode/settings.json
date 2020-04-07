@@ -4,5 +4,9 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
-    }
+    },
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\22643\\Downloads\\percolation (1)\\.lift\\algs4.jar"
+    ]
 }

@@ -4,7 +4,7 @@ import javax.swing.text.AbstractDocument.LeafElement;
 
 public class insertsort
 {//算法模板
-    private static void sort(Comparable[] a) {
+    public static void sort(Comparable[] a) {
         //算法填充区
        int N=a.length;
        for (int i = 1; i <N; i++) {
