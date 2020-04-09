@@ -2,6 +2,7 @@ package 算法;
 
 //import javax.swing.tree.TreeNode;
 import java.util.Arrays;
+import java.util.List;
 
 
 //
@@ -76,14 +77,23 @@ import java.util.Arrays;
       TreeNode right;
       TreeNode(int x) { val = x; }
  }
+//class Solution {
+//    public boolean isSymmetric(TreeNode root) {
+//
+//        return root==null?true:iscure(root.left,root.right);
+//    }
+//    public boolean iscure(TreeNode left,TreeNode right){
+//        if (left==null&&right==null)return true;
+//        if(left == null || right == null || left.val != right.val) return false;
+//        return iscure(left.left,right.right)&&iscure(left.right,right.left);
+//    }
+//}
 class Solution {
-    public boolean isSymmetric(TreeNode root) {
+    public List<List<Integer>> levelOrder(TreeNode root) {
 
-        return root==null?true:iscure(root.left,root.right);
-    }
-    public boolean iscure(TreeNode left,TreeNode right){
-        if (left==null&&right==null)return true;
-        if(left == null || right == null || left.val != right.val) return false;
-        return iscure(left.left,right.right)&&iscure(left.right,right.left);
+
+        levelOrder(root.left);
+        levelOrder(root.right);
+
     }
 }
