@@ -63,10 +63,11 @@ public class selectionsort
    public static void main(String args[]) {
     // Scanner scan = new Scanner(System.in);
     String[] a={"E","A","S","Y","Q","E","S","T","I","O","N"};
+       Double[] arr1=new Double[]{6.0,5.0,4.0,3.0,2.0,1.0};
     // selectionsort  sortDemo=new selectionsort();
-    sort(a);
-    assert isSorted(a);//断言,要是失败了终止程序
-    show(a);
+    sort(arr1);
+//    assert isSorted(a);//断言,要是失败了终止程序
+    show(arr1);
 }
   
 }
