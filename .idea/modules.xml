@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Datastructures/Datastructures.iml" filepath="$PROJECT_DIR$/Datastructures/Datastructures.iml" />
       <module fileurl="file://$PROJECT_DIR$/ES6/ES6.iml" filepath="$PROJECT_DIR$/ES6/ES6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA重新学习/JAVA重新学习.iml" filepath="$PROJECT_DIR$/JAVA重新学习/JAVA重新学习.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode.iml" />
     </modules>

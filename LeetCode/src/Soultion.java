@@ -614,19 +614,51 @@ class TreeNode {
 //
 //    }
 //}
+//class Solution {
+//    public boolean isBalanced(TreeNode root) {
+//       if (root==null)return false;
+//     return isBalanced1(root)<=1&&isBalanced(root.left)&&isBalanced(root.right);
+//    }
+//
+//    private int isBalanced1(TreeNode root) {
+//        int a=0;
+//        int b=0;
+//        if (root==null) return 0;
+//            a=1+isBalanced1(root.left);
+//            b=1+isBalanced1(root.right);
+//            return Math.min(a,b);
+//
+//    }
+//}
+//
 class Solution {
-    public boolean isBalanced(TreeNode root) {
-       if (root==null)return false;
-     return isBalanced1(root)<=1&&isBalanced(root.left)&&isBalanced(root.right);
+    int k=0;
+    public int kthLargest(TreeNode root, int k) {
+     this.k=k;
+     return kthL1(root);
+    }
+    public int kthL1(TreeNode root){
+        if (root==null)return 0;
+        int a=kthL1(root.right);
+        if (--k==0){return root.val;}
+        int b=kthL1(root.left);//遍历的时候,到节点上面再减
+        return a+b;
     }
 
-    private int isBalanced1(TreeNode root) {
-        int a=0;
-        int b=0;
-        if (root==null) return 0;
-            a=1+isBalanced1(root.left);
-            b=1+isBalanced1(root.right);
-            return Math.min(a,b);
-
+}
+class Solution {
+    int res, k;
+    public int kthLargest(TreeNode root, int k) {
+        this.k = k;
+        dfs(root);
+        return res;
+    }
+    void dfs(TreeNode root) {
+        if(root == null) return;
+        dfs(root.right);
+        if(k == 0) return;
+        if(--k == 0) res = root.val;
+        dfs(root.left);
     }
 }
+

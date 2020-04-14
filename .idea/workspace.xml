@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e770716b-f6f0-4109-ab58-d03df0ba8d37" name="Default Changelist" comment="快速排序">
+    <list default="true" id="e770716b-f6f0-4109-ab58-d03df0ba8d37" name="Default Changelist" comment="作业">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datastructures/src/sort/SortCompared.java" beforeDir="false" afterPath="$PROJECT_DIR$/Datastructures/src/sort/SortCompared.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datastructures/src/sort/insertsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Datastructures/src/sort/insertsort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datastructures/src/sort/selectionsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Datastructures/src/sort/selectionsort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/Soultion.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/Soultion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,82 +16,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/算法/Solution.java">
+        <entry file="file://$PROJECT_DIR$/LeetCode/src/Soulution27.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1748">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/quicksort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/quick3sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+            <state relative-caret-position="38">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/insertsort.java">
+        <entry file="file://$PROJECT_DIR$/LeetCode/src/Soultion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/selectionsort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="65" column="59" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/shellsort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/SortCompared.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="43" column="60" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="60" />
+            <state relative-caret-position="40">
+              <caret line="632" column="4" selection-start-line="632" selection-start-column="4" selection-end-line="632" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,7 +84,6 @@
         <option value="$PROJECT_DIR$/ES6/JSON的简写.html" />
         <option value="$PROJECT_DIR$/ES6/Promise.html" />
         <option value="$PROJECT_DIR$/ES6/generator.html" />
-        <option value="$PROJECT_DIR$/LeetCode/src/Soultion.java" />
         <option value="$PROJECT_DIR$/Datastructures/src/sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/Datastructures/src/recursion/RecursionTest.java" />
         <option value="$PROJECT_DIR$/Datastructures/src/recursion/MiGong.java" />
@@ -159,13 +94,16 @@
         <option value="$PROJECT_DIR$/Datastructures/src/sort/SortCompared.java" />
         <option value="$PROJECT_DIR$/Datastructures/src/sort/selectionsort.java" />
         <option value="$PROJECT_DIR$/Datastructures/src/sort/insertsort.java" />
+        <option value="$PROJECT_DIR$/LeetCode/src/homework_copy.java" />
+        <option value="$PROJECT_DIR$/LeetCode/src/Soultion.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="941" />
+    <option name="y" value="2" />
     <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,8 +111,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,58 +128,27 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="linkdelist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="linkdelist" type="462c0819:PsiDirectoryNode" />
+              <item name="Soultion.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="Solution.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Soulution27.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -257,7 +164,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586699537769" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586866318502" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/percolation (1)/.lift/algs4.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -268,6 +175,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\22643\Desktop\Leetcode\LeetCode\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\22643\Desktop\Leetcode\Datastructures\src\linkdelist" />
       <recent name="C:\Users\22643\Desktop\Leetcode\Datastructures\src" />
@@ -431,6 +341,12 @@
       <workItem from="1586478164036" duration="12611000" />
       <workItem from="1586583393365" duration="2538000" />
       <workItem from="1586590596383" duration="1060000" />
+      <workItem from="1586699384206" duration="260000" />
+      <workItem from="1586739156940" duration="9000" />
+      <workItem from="1586739979027" duration="22433000" />
+      <workItem from="1586790412224" duration="675000" />
+      <workItem from="1586827888358" duration="25000" />
+      <workItem from="1586846343482" duration="9201000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 29">
       <created>1583070841192</created>
@@ -670,16 +586,24 @@
       <option name="project" value="LOCAL" />
       <updated>1586504198546</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="作业">
+      <created>1586699562257</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1586699562257</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298936000" />
+    <option name="totallyTimeSpent" value="331539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16689008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17895442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -770,7 +694,8 @@
     <MESSAGE value="逆波兰改进" />
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="快速排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="快速排序" />
+    <MESSAGE value="作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="作业" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1122,16 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/Soultion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11799">
-          <caret line="625" column="33" selection-start-line="625" selection-start-column="33" selection-end-line="625" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Datastructures/src/recursion/RecursionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -1193,6 +1108,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/insertsort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
@@ -1227,10 +1152,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/insertsort.java">
+    <entry file="file://$USER_HOME$/eclipse-workspace/db1/src/com/oracle/jdbc/util/homework_copy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        <state relative-caret-position="19">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/src/homework_copy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/src/Soulution27.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/src/Soultion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="632" column="4" selection-start-line="632" selection-start-column="4" selection-end-line="632" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
