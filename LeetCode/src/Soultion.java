@@ -1,8 +1,6 @@
 import sun.reflect.generics.tree.Tree;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 //////import java.util.ArrayList;
 //////import java.util.Collection;
@@ -631,34 +629,119 @@ class TreeNode {
 //    }
 //}
 //
-class Solution {
-    int k=0;
-    public int kthLargest(TreeNode root, int k) {
-     this.k=k;
-     return kthL1(root);
-    }
-    public int kthL1(TreeNode root){
-        if (root==null)return 0;
-        int a=kthL1(root.right);
-        if (--k==0){return root.val;}
-        int b=kthL1(root.left);//遍历的时候,到节点上面再减
-        return a+b;
-    }
-
-}
-class Solution {
-    int res, k;
-    public int kthLargest(TreeNode root, int k) {
-        this.k = k;
-        dfs(root);
-        return res;
-    }
-    void dfs(TreeNode root) {
-        if(root == null) return;
-        dfs(root.right);
-        if(k == 0) return;
-        if(--k == 0) res = root.val;
-        dfs(root.left);
-    }
-}
-
+//class Solution {
+//    int k=0;
+//    public int kthLargest(TreeNode root, int k) {
+//     this.k=k;
+//     return kthL1(root);
+//    }
+//    public int kthL1(TreeNode root){
+//        if (root==null)return 0;
+//        int a=kthL1(root.right);
+//        if (--k==0){return root.val;}
+//        int b=kthL1(root.left);//遍历的时候,到节点上面再减
+//        return a+b;
+//    }
+//
+//}
+//class Solution {
+//    int res, k;
+//    public int kthLargest(TreeNode root, int k) {
+//        this.k = k;
+//        dfs(root);
+//        return res;
+//    }
+//    void dfs(TreeNode root) {
+//        if(root == null) return;
+//        dfs(root.right);
+//        if(k == 0) return;
+//        if(--k == 0) res = root.val;
+//        dfs(root.left);
+//    }
+//}
+//
+//class Solution {
+//   public static int flag=0;
+//    public boolean isUnivalTree(TreeNode root) {
+//
+//        flag=root.val;
+//        return isun(root);
+//    }
+//    public boolean isun(TreeNode root){
+//        if (root==null)return true;
+//        if (root.val!=flag)return false;
+//        return isun(root.left)&&isun(root.right);
+//    }
+//}
+//class Solution {
+//    public boolean findTarget(TreeNode root, int k) {
+//        List<Integer>list=new ArrayList<>();
+//        return find(root, k, list);
+//    }
+//    private static boolean find(TreeNode root,int k,List<Integer> list){
+//        if (root==null)return false;
+//        if (list.contains(k-root.val)){
+//            return true;
+//        }
+//        list.add(root.val);
+//       return find(root.right,k,list)||find(root.left,k,list);
+//
+//    }
+//
+//
+//}
+//public class Solution {
+//    public boolean findTarget(TreeNode root, int k) {
+//        Set< Integer > set = new HashSet();
+//        return find(root, k, set);
+//    }
+//    public boolean find(TreeNode root, int k, Set < Integer > set) {
+//        if (root == null)
+//            return false;
+//        if (set.contains(k - root.val))
+//            return true;
+//        set.add(root.val);
+//        return find(root.left, k, set) || find(root.right, k, set);
+//    }
+//}
+//class Solution {
+//    public TreeNode trimBST(TreeNode root, int L, int R) {
+//         return    cutTree(root,L,R);
+//    }
+//    private static TreeNode cutTree(TreeNode root, int L, int R){
+//        if (root==null)return root;
+//        if (root.val<L){
+//            return   cutTree(root.right,L,R);
+//        }
+//        if (root.val>R){
+//            return cutTree(root.left,L,R);
+//        }
+//        root.left=cutTree(root.left,L,R);
+//        root.right=cutTree(root.right,L,R);
+//        return root;
+//    }
+//}
+//class Solution {
+//    List<List<Integer>> list=new ArrayList<>();
+//    public int sumRootToLeaf(TreeNode root) {
+//        List<Integer> list=new ArrayList<>();
+//
+//    }
+//}
+//class Solution {
+//    public int getMinimumDifference(TreeNode root) {
+//
+//        List<Integer> list =new ArrayList();
+//        getMinimumDifference1(root,list);
+//        Collections.sort(list);
+//        return list.get(2)-list.get(1);
+//
+//
+//    }
+//    public void getMinimumDifference1(TreeNode root, List<Integer> list){
+//
+//        list.add(Math.a(root.val));
+//        getMinimumDifference1(root.left,list);
+//        getMinimumDifference1(root.right,list);
+//    }
+//}
