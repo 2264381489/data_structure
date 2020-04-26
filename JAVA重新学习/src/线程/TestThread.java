@@ -1,4 +1,8 @@
 package 线程;
+
+import java.util.ArrayList;
+import java.util.List;
+
 //用扩展的方式生成多线程
 public class TestThread extends Thread {
     public TestThread(String name){
@@ -25,5 +29,32 @@ public class TestThread extends Thread {
         Thread t2=new TestThread("quyuan");
         t1.start();
         t2.start();
+    }
+}
+class Solution {
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        int pre = 0, last = k;
+        int max = nums[0];
+        for (last = k; last >= 0; last--) {
+            if (nums[last] > max) {
+                max = nums[last];
+            }
+        }
+        List<Integer> list = new ArrayList();
+        for (last = k; last < nums.length; last++) {
+            for (int i = k; i >= 0; i--) {
+                if (nums[last - i] > max) {
+                    max = nums[last];
+                }
+            }
+            list.add(max);
+        }
+        int[] arr = new int[list.size()];
+        Integer[] arr=list.toArray(new Integer[list.size()]);
+        int i = 0;
+        for (int a : list) {
+            arr[i++] = a;
+        }
+        return arr;
     }
 }

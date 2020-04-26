@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e770716b-f6f0-4109-ab58-d03df0ba8d37" name="Default Changelist" comment="作业">
-      <change afterPath="$PROJECT_DIR$/Datastructures/src/sort/bubbleSort1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA重新学习/src/线程/Runnablelmpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA重新学习/src/线程/TestThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/homework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/Soultion.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/Soultion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/homework_copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/homework_copy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/SparseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Datastructures/SparseArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/linkdelist/DoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Datastructures/linkdelist/DoubleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/linkdelist/DoubleLinkedListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Datastructures/linkdelist/DoubleLinkedListDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Datastructures/queue/ArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/queue/ArrayQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Datastructures/queue/ArrayQueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/queue/CircleArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Datastructures/queue/CircleArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/queue/CircleArrayQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Datastructures/queue/CircleArrayQueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/stack/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Datastructures/stack/ArrayStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/stack/ArrayStack2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Datastructures/stack/ArrayStack2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/stack/ArrayStackDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Datastructures/stack/ArrayStackDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/stack/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Datastructures/stack/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/stack/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Datastructures/stack/Operation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Datastructures/stack/PolandNotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Datastructures/stack/PolandNotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA重新学习/src/线程/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA重新学习/src/线程/TestThread.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,23 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/bubbleSort1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JAVA重新学习/src/线程/Runnablelmpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="21" selection-end-column="9" />
-              <folding>
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="21" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -60,12 +26,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JAVA重新学习/src/线程/TestThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="406">
+              <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
               <folding>
-                <element signature="e#88#89#0" expanded="true" />
-                <element signature="e#106#107#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="277" column="43" selection-start-line="277" selection-start-column="43" selection-end-line="277" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -207,9 +181,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
+    <option name="x" value="-10" />
     <option name="width" value="980" />
-    <option name="height" value="1039" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -217,6 +191,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,8 +245,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,6 +431,7 @@
       <workItem from="1587369483576" duration="5098000" />
       <workItem from="1587620002795" duration="770000" />
       <workItem from="1587649040972" duration="1788000" />
+      <workItem from="1587865039805" duration="2260000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 29">
       <created>1583070841192</created>
@@ -714,7 +689,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350173000" />
+    <option name="totallyTimeSpent" value="352433000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -727,8 +702,47 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20911528" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21179625" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="设计师" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45040214" weight="0.24220963" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4640884" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.54959786" side_tool="true" weight="0.24220963" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49128687" weight="0.3286119" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" sideWeight="0.8265583" weight="0.32904148" />
+      <window_info anchor="bottom" id="运行" order="14" sideWeight="0.4953083" weight="0.33002833" />
+      <window_info anchor="bottom" id="调试" order="15" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="bottom" id="消息" order="16" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="bottom" id="SmartIM" order="17" sideWeight="0.4966488" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="控制板" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21179625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -754,43 +768,6 @@
       <window_info anchor="bottom" id="调试" order="15" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="消息" order="16" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="SmartIM" order="17" sideWeight="0.4966488" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="控制板" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.79752064" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="设计师" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45241287" weight="0.32577905" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4640884" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932975" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5041322" side_tool="true" visible="true" weight="0.33142856" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49447513" weight="0.3286119" />
-      <window_info anchor="bottom" id="Duplicate detector" order="13" sideWeight="0.8265583" weight="0.32904148" />
-      <window_info active="true" anchor="bottom" id="运行" order="14" sideWeight="0.49586776" visible="true" weight="0.33142856" />
-      <window_info anchor="bottom" id="调试" order="15" sideWeight="0.49932975" weight="0.3286119" />
-      <window_info anchor="bottom" id="消息" order="16" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1262,6 +1239,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/bubbleSort1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JAVA重新学习/src/线程/Runnablelmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1317,31 +1308,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/bubbleSort1.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JAVA重新学习/src/线程/Runnablelmpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="16">
+          <caret line="277" column="43" selection-start-line="277" selection-start-column="43" selection-end-line="277" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JAVA重新学习/src/线程/TestThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="406">
+          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
           <folding>
-            <element signature="e#88#89#0" expanded="true" />
-            <element signature="e#106#107#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
