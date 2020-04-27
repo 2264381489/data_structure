@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e770716b-f6f0-4109-ab58-d03df0ba8d37" name="Default Changelist" comment="作业">
+    <list default="true" id="e770716b-f6f0-4109-ab58-d03df0ba8d37" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JAVA重新学习/src/线程/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA重新学习/src/线程/TestThread.java" afterDir="false" />
     </list>
@@ -26,10 +26,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JAVA重新学习/src/线程/TestThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            <state relative-caret-position="805">
+              <caret line="102" column="13" lean-forward="true" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2468#2469#0" expanded="true" />
+                <element signature="e#2504#2505#0" expanded="true" />
+                <element signature="e#2674#2675#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
+            <state relative-caret-position="4826">
               <caret line="277" column="43" selection-start-line="277" selection-start-column="43" selection-end-line="277" selection-end-column="43" />
             </state>
           </provider>
@@ -251,7 +253,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587650891049" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587974785454" />
     <property name="last_opened_file_path" value="F:/BaiduNetdiskDownload/尚硅谷韩顺平老师数据结构分享" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -282,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestThread">
+  <component name="RunManager" selected="Application.test">
     <configuration name="Runnablelmpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="线程.Runnablelmpl" />
       <module name="JAVA重新学习" />
@@ -322,13 +324,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework1" />
       <module name="LeetCode" />
@@ -336,13 +331,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="线程.test" />
+      <module name="JAVA重新学习" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="线程.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.TestThread" />
         <item itemvalue="Application.Runnablelmpl" />
         <item itemvalue="Application.bubbleSort1" />
         <item itemvalue="Application.homework1" />
-        <item itemvalue="Application.homework" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +439,8 @@
       <workItem from="1587369483576" duration="5098000" />
       <workItem from="1587620002795" duration="770000" />
       <workItem from="1587649040972" duration="1788000" />
-      <workItem from="1587865039805" duration="2260000" />
+      <workItem from="1587865039805" duration="3068000" />
+      <workItem from="1587968060514" duration="3005000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode 29">
       <created>1583070841192</created>
@@ -685,11 +694,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586866348573</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="作业">
+      <created>1587875161605</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1587875161605</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="352433000" />
+    <option name="totallyTimeSpent" value="356246000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -714,7 +730,7 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798927" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45040214" weight="0.24220963" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.45040214" visible="true" weight="0.24220963" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4640884" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1253,6 +1269,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4826">
+          <caret line="277" column="43" selection-start-line="277" selection-start-column="43" selection-end-line="277" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Datastructures/src/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1308,19 +1331,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="277" column="43" selection-start-line="277" selection-start-column="43" selection-end-line="277" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JAVA重新学习/src/线程/TestThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        <state relative-caret-position="805">
+          <caret line="102" column="13" lean-forward="true" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2468#2469#0" expanded="true" />
+            <element signature="e#2504#2505#0" expanded="true" />
+            <element signature="e#2674#2675#0" expanded="true" />
           </folding>
         </state>
       </provider>
