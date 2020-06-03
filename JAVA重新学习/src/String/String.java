@@ -38,3 +38,34 @@ class String1 {
 //    public String1(char[] buf1, int i, int i1) {
 //    }
 }
+class Solution {
+ public int[] nextGreaterElement(int[] nums1, int[] nums2) {
+  //   HashMap<Integer> HashMap=new HashMap<>();
+  int[] res=new int[nums1.length];
+  int flag=0;
+  for(int i=0;i<nums1.length;i++){
+   int val=-1;
+   for(int j=i;j<nums2.length;j++){
+    if(a[i]<a[j]){
+     flag++;
+     if(flag==2){
+      val=a[j];
+     }
+    }
+   }
+   res[i]=val;
+  }
+  return res;
+ }
+}
+class Solution {
+ public int sumSubarrayMins(int[] A) {
+  int num=0;
+  int total=0;
+  for(int i=0;i<A.length;i++){
+   num+=A.length-2i;
+   total+=A[i]*num;
+  }
+  return total;
+ }
+}
